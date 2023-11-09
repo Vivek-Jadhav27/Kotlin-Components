@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:elevation="8dp"
+    app:cardCornerRadius="10sp"
+    android:layout_marginBottom="6dp"
+    android:id="@+id/rvCardView"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:src="@drawable/avtar"
+            android:layout_marginStart="20sp"
+            android:layout_marginVertical="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/rvImageView"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Vivek Jadhav"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:id="@+id/rvTextView"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
