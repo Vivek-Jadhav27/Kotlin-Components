@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DatePicker" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+</resources>
