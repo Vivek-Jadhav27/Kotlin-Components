@@ -95,6 +95,7 @@ To create an Alert DialogueBox in Kotlin follow below steps
 
 - Step 4: Add DialogueBox in MainActivity.kts
 
+
         private fun showSuccessDialogue() {
         
         val dialog = Dialog(this)
@@ -105,5 +106,6 @@ To create an Alert DialogueBox in Kotlin follow below steps
         }
 
 <img src="https://github.com/Vivek-Jadhav27/Kotlin-Components/assets/85949907/3227fd29-f5be-4b07-9eee-9782dfa6a19f" height=700 width=300 />
+
 <img src="https://github.com/Vivek-Jadhav27/Kotlin-Components/assets/85949907/ffc3d721-b166-4620-8107-5f69cbc4e569" height=700 width=300 />
 
