@@ -24,14 +24,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun showSuccessDialogue() {
 
-        val successConstraintLayout:ConstraintLayout =findViewById(R.id.successconstraint)
-
-        val view = LayoutInflater.from(this).inflate(R.layout.successdbox,successConstraintLayout)
-
-        val builder : AlertDialog.Builder = AlertDialog.Builder(this)
-
-        builder.setView(view)
-
-        val dialog :AlertDialog = builder.create()
+        val dialog = Dialog(this)
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        dialog.setCancelable(true)
+        dialog.setContentView(R.layout.successdbox)
+        dialog.show()
     }
 }
